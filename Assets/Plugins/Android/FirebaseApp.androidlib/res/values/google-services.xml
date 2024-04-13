@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="firebase_database_url" translatable="false">https://village-defender-554ca-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">480428302891</string>
+  <string name="google_storage_bucket" translatable="false">village-defender-554ca.appspot.com</string>
+  <string name="project_id" translatable="false">village-defender-554ca</string>
+  <string name="google_api_key" translatable="false">AIzaSyAipxHX9Nb6hNcMgWco_Ryhj18d7PxjfX8</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAipxHX9Nb6hNcMgWco_Ryhj18d7PxjfX8</string>
+  <string name="google_app_id" translatable="false">1:480428302891:android:a28dc29fd318b03c5b006e</string>
+</resources>

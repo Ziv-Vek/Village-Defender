@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/GameActionsMenuStyles.uss?fileID=7433441132597879392&amp;guid=715d5b23c14a64f49b06f6c8555e7963&amp;type=3#GameActionsMenuStyles" />
+    <ui:VisualElement name="container" class="container" style="background-color: rgb(118, 118, 118);">
+        <ui:VisualElement name="sliderContainer" class="left-group" style="flex-grow: 1;">
+            <ui:ProgressBar value="0" name="foodBar" picking-mode="Ignore" high-value="1" focusable="false" class="food-bar-container" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;" />
+            <ui:VisualElement name="foodCountContainer" class="food-count-container" style="flex-grow: 1;">
+                <ui:VisualElement name="broccoliImg" class="food-bar-image" style="background-image: url(&quot;project://database/Assets/Resources/Sprites/broccoli.png?fileID=2800000&amp;guid=98fc3b6bfee9cca45b8f5084e54ffbdd&amp;type=3#broccoli&quot;);" />
+                <ui:Label text="99" parse-escape-sequences="true" display-tooltip-when-elided="true" name="foodCount" class="food-bar-text" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="unitsContainer" class="right-group" style="flex-grow: 1;">
+            <ui:VisualElement name="unitBox" class="unit-box unit">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="unitButton" class="unit-btn unit__button">
+                    <ui:VisualElement name="unitImage" class="unit__button__image" style="background-image: url(&quot;project://database/Assets/Resources/Sprites/man.png?fileID=2800000&amp;guid=62f7aff4c8b2c094f87572eb206a1a21&amp;type=3#man&quot;);" />
+                </ui:Button>
+                <ui:VisualElement name="unitCostContainer" class="unit__cost">
+                    <ui:VisualElement name="unitCostImage" class="unit-cost__image unit__cost__image" style="background-image: url(&quot;project://database/Assets/Resources/Sprites/broccoli.png?fileID=2800000&amp;guid=98fc3b6bfee9cca45b8f5084e54ffbdd&amp;type=3#broccoli&quot;);" />
+                    <ui:Label tabindex="-1" text="99" parse-escape-sequences="true" display-tooltip-when-elided="true" name="unitCostText" class="unit-cost__text unit__cost__text" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

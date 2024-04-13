@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "480428302891",
+    "firebase_url": "https://village-defender-554ca-default-rtdb.firebaseio.com",
+    "project_id": "village-defender-554ca",
+    "storage_bucket": "village-defender-554ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480428302891:android:a28dc29fd318b03c5b006e",
+        "android_client_info": {
+          "package_name": "com.WendyPan.VillageDefender"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAipxHX9Nb6hNcMgWco_Ryhj18d7PxjfX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

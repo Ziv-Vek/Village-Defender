@@ -1,0 +1,86 @@
+﻿{
+  "food": {
+    "rate": {
+      "lvl1": 0.03,
+      "lvl2": 0.33,
+      "lvl3": 0.35,
+      "lvl4": 0.41,
+      "lvl5": 0.45,
+      "lvl6": 0.5,
+      "lvl7": 0.53,
+      "lvl8": 0.57,
+      "lvl9": 0.6,
+      "lvl10": 0.63,
+      "lvl11": 0.67,
+      "lvl12": 0.7,
+      "lvl13": 0.73,
+      "lvl14": 0.77,
+      "lvl15": 0.8,
+      "lvl16": 0.83,
+      "lvl17": 0.87,
+      "lvl18": 0.9,
+      "lvl19": 0.93,
+      "lvl20": 0.97
+    },
+    "cost": {
+      "lvl1": 12,
+      "lvl2": 20,
+      "lvl3": 34,
+      "lvl4": 48,
+      "lvl5": 70,
+      "lvl6": 88,
+      "lvl7": 110,
+      "lvl8": 135,
+      "lvl9": 160,
+      "lvl10": 185,
+      "lvl11": 210,
+      "lvl12": 235,
+      "lvl13": 260,
+      "lvl14": 294,
+      "lvl15": 326,
+      "lvl16": 360,
+      "lvl17": 394,
+      "lvl18": 428,
+      "lvl19": 462,
+      "lvl20": 496
+    }
+  },
+  "units": {
+    "barbarien": {
+      "hp": 2,
+      "dmg": 1,
+      "range": 1,
+      "attackSpeed": 1,
+      "movementspeed": 3,
+      "cost": 3,
+      "goldDrop": 1
+    },
+    "slinger": {
+      "hp": 1,
+      "dmg": 1.5,
+      "range": 3,
+      "attackSpeed": 1,
+      "movementSpeed": 3,
+      "cost": 5,
+      "goldDrop": 2
+    },
+    "spearman": {
+      "hp": 3,
+      "dmg": 2,
+      "range": 1,
+      "attackSpeed": 1,
+      "movementSpeed": 2,
+      "cost": 7,
+      "goldDrop": 2
+    },
+    "dinoRider": {
+      "hp": 5,
+      "dmg": 3,
+      "range": 1,
+      "attackSpeed": 1,
+      "movementSpeed": 2,
+      "cost": 9,
+      "goldDrop": 4
+    }
+  }
+}

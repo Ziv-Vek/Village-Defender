@@ -1,0 +1,51 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UIs/MainMenuStylesheet.uss?fileID=7433441132597879392&amp;guid=9644fbafa52588c4f9f9aede05b0bb6d&amp;type=3#MainMenuStylesheet" />
+    <ui:VisualElement name="mainContainer" class="container" style="flex-grow: 1; justify-content: space-between; align-self: center; align-items: center;">
+        <ui:VisualElement name="statusBarContainer" class="status-bar">
+            <ui:VisualElement name="barGroup" class="status-bar__group" style="flex-grow: 1;">
+                <ui:VisualElement name="coinImg" class="status-bar__icon" style="flex-grow: 1; background-image: resource(&apos;Sprites/coin&apos;); -unity-background-scale-mode: scale-to-fit;" />
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="coinCountText" class="status-bar__text" style="-unity-text-align: middle-left;" />
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="levelNumberText" class="status-bar__level-text" />
+            <ui:VisualElement name="barGroup" class="status-bar__group" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="diamondCountText" class="status-bar__text" style="-unity-text-align: middle-right;" />
+                <ui:VisualElement name="diamondImg" class="status-bar__icon" style="flex-grow: 1; background-image: resource(&apos;Sprites/diamond&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="screenPickerContainer" class="screens">
+            <ui:Button text="Store" parse-escape-sequences="true" display-tooltip-when-elided="true" name="shopButton" class="screens-container__button" />
+            <ui:Button text="Farm" parse-escape-sequences="true" display-tooltip-when-elided="true" name="progressionScreenButton" class="screens-container__button" />
+            <ui:Button text="Home" parse-escape-sequences="true" display-tooltip-when-elided="true" name="homeScreenButton" class="screens-container__button" />
+            <ui:Button text="Tools" parse-escape-sequences="true" display-tooltip-when-elided="true" name="powerupsScreenButton" class="screens-container__button" style="background-image: none;" />
+            <ui:Button text="Lore" parse-escape-sequences="true" display-tooltip-when-elided="true" name="loreScreenButton" class="screens-container__button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:GroupBox name="homeScreenGroup" class="screenGroup" style="display: none;">
+        <ui:Button text="BATTLE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="playButton" class="play-button" />
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="settingButton" class="settings-button" />
+    </ui:GroupBox>
+    <ui:GroupBox name="farmScreenGroup" class="screenGroup">
+        <ui:VisualElement class="farm-data-container" style="flex-grow: 1; opacity: 1;">
+            <ui:VisualElement name="unitBox" class="farm-data-container__unit-box" style="flex-grow: 1;">
+                <ui:VisualElement name="unitImage" style="flex-grow: 1; background-image: resource(&apos;Sprites/broccoli&apos;);" />
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="unitName" />
+                <ui:VisualElement name="unitPriceBox" style="flex-grow: 1;">
+                    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;Sprites/coin&apos;); -unity-background-scale-mode: scale-to-fit;" />
+                    <ui:Label tabindex="-1" text="99K" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="unitBox" class="farm-data-container__unit-box" style="flex-grow: 1;">
+                <ui:VisualElement name="unitImage" style="flex-grow: 1;" />
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="unitName" />
+                <ui:VisualElement name="unitPriceBox" style="flex-grow: 1;">
+                    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;Sprites/coin&apos;); -unity-background-scale-mode: scale-to-fit;" />
+                    <ui:Label tabindex="-1" text="99K" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="farm-data-container" style="flex-grow: 1;" />
+    </ui:GroupBox>
+    <ui:GroupBox name="storeScreenGroup" class="screenGroup" style="display: none;" />
+    <ui:GroupBox name="toolsScreenGroup" class="screenGroup" style="display: none;" />
+    <ui:GroupBox name="loreScreenGroup" class="screenGroup" style="display: none;" />
+</ui:UXML>

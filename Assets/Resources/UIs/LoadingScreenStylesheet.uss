@@ -1,0 +1,43 @@
+:root{
+    
+}
+
+.container{
+    background-color: #61c3d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.man-image{
+    width: 256px;
+    margin-bottom: 200px;
+}
+
+.wisdom-sentence{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 400px;
+    align-self: center;
+    width: 1000px;
+    height: 300px;
+    flex-wrap: wrap;
+    -unity-text-align: middle-center;
+    white-space: normal;
+}
+
+.loading-text{
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.loading-circle-container{
+    margin-bottom: 30px;
+}
+
+.loading-circle-container .loading-circle{
+    width: 128px;
+}
+
