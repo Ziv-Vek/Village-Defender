@@ -71,10 +71,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-#Firebase
-/[Aa]ssets/Firebase/*
-Assets/Firebase/Plugins/x86_64/FirebaseCppApp-11_8_1.bundle
-/Assets/Plugins/iOS/Firebase
-/Assets/Plugins/tvOS/Firebase
-/Assets/Editor Default Resources/Firebase
-/Assets/GeneratedLocalRepo/Firebase
+

@@ -34,7 +34,7 @@ namespace VillageDefender.Systems
             
             yield return SceneManager.LoadSceneAsync(1);
             
-            //yield return new WaitForSeconds(10f);
+            yield return new WaitForSeconds(10f);
             
             _loadingScreen.Hide();
         }
